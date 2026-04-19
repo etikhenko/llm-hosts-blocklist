@@ -1,5 +1,5 @@
 # AI / LLM BLOCKLIST
-# Last updated: 2025-08-03
+# Last updated: 2026-04-19
 # Pulled from https://github.com/abixb/llm-hosts-blocklist/edit/main/hosts
 
 ############
@@ -24,6 +24,7 @@
 # Azure OpenAI (add your own resource sub-domains)
 0.0.0.0 openai.azure.com
 0.0.0.0 cognitiveservices.azure.com
+0.0.0.0 chatgpt.com
 
 ############
 # Anthropic / Claude
@@ -454,5 +455,10 @@
 0.0.0.0 x.ai
 0.0.0.0 grok.x.ai
 0.0.0.0 api.x.ai
+
+############
+# DuckDuckGo
+############
+0.0.0.0 duck.ai
 
 # ---------- END ----------
